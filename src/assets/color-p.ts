@@ -1,8 +1,8 @@
-export const themeColor                = '#6440DB'
+export const themeColor                = '#029e74'
 export const backgroundColorA          = '#262525'
-export const backgroundColorB          = '#6C6C6C'
-export const backgroundColorC          = '#C4C4C4';
+export const backgroundColorB          = '#51626a'
+export const backgroundColorC          = '#000000';
 
 
 export const primary    = themeColor
-export const secondary  = '#fff'
+export const secondary  = '#000'

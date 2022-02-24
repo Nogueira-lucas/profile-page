@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { secondary } from '../../assets/color-p';
 import { fontPrimary, smallestSize } from '../../assets/typography';
 
 export const FooterContainer = styled.div`
@@ -20,6 +21,6 @@ export const Description = styled.p`
     text-align: center;
     font-family: ${fontPrimary};
     font-size: ${smallestSize};
-    color: #fff;
+    color: ${secondary};
     font-size: 1.2em;
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { secondary } from '../../assets/color-p';
 import { smallScreenSize } from '../../assets/screen-settings';
 import { fontPrimary } from '../../assets/typography';
 
@@ -15,7 +16,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
 	font-size: 2.2em;
-	color: #fff;
+	color: ${secondary};
 	font-family: ${fontPrimary};
 `;
 

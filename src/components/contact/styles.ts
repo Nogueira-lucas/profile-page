@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { backgroundColorB, backgroundColorC, primary, secondary } from '../../assets/color-p';
 import { smallScreenSize } from '../../assets/screen-settings';
-import { fontSecondary, largestSize, lightSpacing, smallestSize } from '../../assets/typography';
+import { fontPrimary, largestSize, lightSpacing } from '../../assets/typography';
 
 export const Container = styled.div`
     display: flex;
@@ -11,11 +11,11 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
+    font-family: ${fontPrimary};
     color: ${secondary};
-    text-align: center;
-    font-family: ${fontSecondary};
     font-size: ${largestSize};
-    margin-bottom: ${smallestSize};
+    text-align: center;
+    font-weight: bold;
 `;
 
 
@@ -59,11 +59,12 @@ export const Icon = styled.img`
 export const MailAddressContent = styled.div`
     display: flex;
     flex-direction: column;
+    color: ${primary};
 `;
 
 export const MailAddress = styled.span`
-    font-size: 1.3em;
-    font-family: ${primary};
+    font-size: ${largestSize};
+    font-family: ${fontPrimary};
     padding: 55px;
 `;
 

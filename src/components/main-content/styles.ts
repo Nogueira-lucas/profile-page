@@ -64,12 +64,12 @@ export const IconsContainer = styled.div`
 export const MediaIcon = styled.img`
     width: 33px;
     height: 33px;
-    border: 1px solid #fff;
+    border: 1px solid ${primary};
     padding: 12px;
     border-radius: 50%;
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #029e7487;
         cursor: pointer;
         transition: filter 2s;
     }

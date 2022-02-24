@@ -17,7 +17,7 @@ export function ContactComponent() {
 
                 <MailAddressContent>
                     <MailAddress>
-                        <span>lucasnogueiratdm@hotmail.com</span>
+                        <span>{t('contact.email')}</span>
                     </MailAddress>
                 </MailAddressContent>
                 
