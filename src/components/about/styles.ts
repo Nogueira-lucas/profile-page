@@ -73,3 +73,7 @@ export const Content = styled.div`
     }
 `;
 
+export const Paragraph = styled.span`
+    font-family: ${fontPrimary};
+`;
+

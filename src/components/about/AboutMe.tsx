@@ -1,4 +1,4 @@
-import { Container, Title, BoxContainer, Photo, Description, Content } from "./styles";
+import { Container, Title, BoxContainer, Photo, Description, Content, Paragraph } from "./styles";
 import photoPath from '../../assets/img/profile-about.jpg';
 
 import { t } from 'i18next';
@@ -16,12 +16,12 @@ export function AboutMeComponent() {
                 <Content>
                     <Photo src={photoPath}></Photo>
                     <Description>
-                        <p>
+                        <Paragraph>
                             {t('about.glad')}
-                        </p>
-                        <p>
+                        </Paragraph>
+                        <Paragraph>
                             {t('about.description')}
-                        </p>
+                        </Paragraph>
                     </Description>
                 </Content>
             </BoxContainer>
