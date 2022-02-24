@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next'
 import { Animated } from 'react-animated-css';
 
 export function HeaderComponent() {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const { i18n } = useTranslation()
 	const animation = 'fadeInDown'
 

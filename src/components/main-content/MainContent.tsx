@@ -11,6 +11,7 @@ import { useTranslation } from 'react-i18next';
 
 
 export function MainContentComponent() {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { i18n } = useTranslation()
 
     const animation = 'flipInX'
