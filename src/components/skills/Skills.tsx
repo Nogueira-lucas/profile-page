@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
 
 
 export function SkillsComponent() {
-    const i18n = useTranslation()
+    const { i18n } = useTranslation()
 
     return (
         <MainContainer>

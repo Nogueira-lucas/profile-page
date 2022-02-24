@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 
 export function AboutMeComponent() {
 
+    const { i18n } = useTranslation()
+
     return (
         <Container>
             <BoxContainer>
