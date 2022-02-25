@@ -12,8 +12,8 @@ export function HireMeComponent() {
         <Container>
             <Title>{t('hire.title')}</Title>
             <MediaContainer>
-                <MediaFigure src={fiverrImage}></MediaFigure>
-                <MediaFigure src={upworkImage}></MediaFigure>
+                <MediaFigure src={fiverrImage} alt="fiverr link"></MediaFigure>
+                <MediaFigure src={upworkImage} alt="upwork link"></MediaFigure>
             </MediaContainer>
         </Container>
     );

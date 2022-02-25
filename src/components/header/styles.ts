@@ -73,7 +73,7 @@ export const TranslateOptions = styled.div`
 	gap: 10px;
 `;
 
-export const Option = styled.a`
+export const Option = styled.span`
 	color: ${secondary};
 	font-size: ${smallestSize};
 	cursor: pointer;

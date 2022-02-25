@@ -6,8 +6,6 @@ import { t } from 'i18next'
 import { useTranslation } from 'react-i18next'
 import { Animated } from 'react-animated-css';
 
-import './scroll.css';
-
 function isHiddenFunc() {
 	let component = document.getElementById("navbar")
   

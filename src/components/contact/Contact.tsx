@@ -12,7 +12,7 @@ export function ContactComponent() {
             <Title>{t('contact.title')}</Title>
             <MailIconContainer>
                 <IconContainer>
-                    <Icon src={mailIcon}></Icon>
+                    <Icon src={mailIcon} alt="mail icon"></Icon>
                 </IconContainer>
 
                 <MailAddressContent>

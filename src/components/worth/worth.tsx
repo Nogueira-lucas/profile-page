@@ -13,11 +13,11 @@ export function WorthComponent() {
             <Title>{t('worthies.title')}</Title>
             <Content>
                 <Content>
-                    <IssueIcon src={worthImageTwo}></IssueIcon>
+                    <IssueIcon src={worthImageTwo} alt="chart icon"></IssueIcon>
                     <Description>{t('worthies.deli')}</Description>
                 </Content>
                 <Content>
-                    <IssueIcon src={worthImageOne}></IssueIcon>
+                    <IssueIcon src={worthImageOne} alt="engineer icon"></IssueIcon>
                     <Description>{t('worthies.code')}</Description>
                 </Content>
             </Content>

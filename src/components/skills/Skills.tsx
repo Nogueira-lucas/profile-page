@@ -21,35 +21,35 @@ export function SkillsComponent() {
                 <Title>{t('skills.title')}</Title>
                 <IconsContainer>
                     <FigCaption>
-                        <Icon src={angular}></Icon>
+                        <Icon src={angular} alt="angular"></Icon>
                         <FigDescription>Angular</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={react}></Icon>
+                        <Icon src={react} alt="react"></Icon>
                         <FigDescription>ReactJS</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={html}></Icon>
+                        <Icon src={html} alt="html"></Icon>
                         <FigDescription>HTML5</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={css}></Icon>
+                        <Icon src={css} alt="css"></Icon>
                         <FigDescription>CSS3</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={java}></Icon>
+                        <Icon src={java} alt="java enterprise edition"></Icon>
                         <FigDescription>Java EE</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={aws}></Icon>
+                        <Icon src={aws} alt="Amazon web services"></Icon>
                         <FigDescription>AWS Services</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={sass}></Icon>
+                        <Icon src={sass} alt="Sass"></Icon>
                         <FigDescription>Sass</FigDescription>
                     </FigCaption>
                     <FigCaption>
-                        <Icon src={javascript}></Icon>
+                        <Icon src={javascript} alt="javascript"></Icon>
                         <FigDescription>Javascript</FigDescription>
                     </FigCaption>
                 </IconsContainer>
