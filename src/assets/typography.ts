@@ -5,4 +5,4 @@ export const lightSpacing       = '1.2em'
 export const mediumSpacing      = '15%'
 
 export const largestSize        = '1.5em'
-export const smallestSize       = '24px'
+export const smallestSize       = '1.2em'

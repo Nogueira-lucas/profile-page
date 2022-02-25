@@ -52,6 +52,8 @@ export const MenuItem = styled.li`
 	color: ${secondary};
 	transition: filter 0.2s;
 	padding: 5px;
+	font-size: ${smallestSize};
+	transition: all 0.5s;
 
     &:hover{
 		color: ${themeColor}
@@ -76,6 +78,7 @@ export const Option = styled.a`
 	font-size: ${smallestSize};
 	cursor: pointer;
 	font-family: ${fontSecondary};
+	transition: all 0.5s;
 
 	&:hover {
 		color: ${primary}
@@ -84,5 +87,57 @@ export const Option = styled.a`
 
 export const Quote = styled.span`
 	font-size: ${smallestSize};
-	color: ${secondary}
+	color: ${secondary};
+`;
+
+export const NavigationBar = styled.nav`
+	width: 100%;
+	min-height: 45px;
+	position: fixed;
+	z-index: 2;
+	top: -100px;
+	transition: all 0.5s;
+	background-color: rgba(0, 0, 0, 0.4);
+
+	@media screen and (max-width: ${smallScreenSize}) {
+	  display: none;
+	}
+`;
+
+export const NavBarContainer = styled.div`
+	max-width: 75%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+`;
+
+export const MenuNavBar = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:15px;
+
+  @media screen and (max-width: ${smallScreenSize}) {
+	  display: none;
+	  flex-direction: column;
+	  gap: 15px
+  }
+`;
+
+export const MenuNavBarItem = styled.li`
+    display: inline;
+    cursor: pointer;
+    padding: ${lightSpacing};
+    font-family: ${fontPrimary};
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFF;
+	transition: filter 0.2s;
+	padding: 5px;
+	transition: all 0.5s;
+
+    &:hover{
+		color: ${themeColor}
+    }
 `;
